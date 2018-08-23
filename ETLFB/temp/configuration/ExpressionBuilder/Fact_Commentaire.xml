@@ -1,0 +1,42 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<expression:EMFExpression xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:expression="http:///expression.ecore" id="tMap_2=>" expression="TalendString.unionString();&#xD;&#xA;if&#xD;&#xA;(StringHandling.LEFT(row2.id_commentaire,16)==StringHandling.RIGHT(row3.id_publication,16))&#xD;&#xA;&#xA;Var.id_pub=StringHandling.EREPLACE(&quot;hello world!&quot;,&quot;world&quot;,&quot;guy&quot;);">
+  <variables name="row2.rownames_comm" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row2.id_commentaire" value="null" talendType="id_String"/>
+  <variables name="row2.id_reply" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.message_com" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.from_id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.from_name" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row2.created_time_com" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row3.rownames_pub" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row3.id_publication" value="null" talendType="id_String"/>
+  <variables name="row3.message" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.from_idpage" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.from_nompage" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.type_pub" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.link_pub" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.created_time_pub" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row4.idtemps" value="0" talendType="id_Integer"/>
+  <variables name="row4.heure" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.jour" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.mois" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row4.annee" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.created_time" value="null" talendType="id_Date" nullable="true"/>
+  <variables name="row5.likes_count" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.comments_count" value="null" talendType="id_Integer" nullable="true"/>
+  <variables name="row5.id" value="null" talendType="id_String" nullable="true"/>
+  <variables name="StringHandling.COUNT(row3.id_publication.substring(17,32),row2.id_commentaire.substring(0,16))!=0 " value="null" talendType="id_String"/>
+  <variables name="row3.id_publication&#xD;&#xA;if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16)) " value="null" talendType="id_String"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16)){&#xD;&#xA;id_pub=row3.id_publication;} " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16))&#xD;&#xA;row3.id_publication; " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16))&#xD;&#xA;{this=row3.id_publication;} " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16))&#xD;&#xA;{row3.id_publication;} " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16))&#xD;&#xA;{var.id_pub=row3.id_publication;} " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16))&#xD;&#xA;{Var.id_pub=row3.id_publication;} " value="null" talendType="id_String" nullable="true"/>
+  <variables name="if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16)) " value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.newColumn" value="null" talendType="id_String" nullable="true"/>
+  <variables name="row6.id_pub" value="null" talendType="id_String" nullable="true"/>
+  <variables name=" " value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.id_publication&#xD;&#xA; if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16)) " value="null" talendType="id_String" nullable="true"/>
+  <variables name="row3.id_publication;&#xD;&#xA; if (row3.id_publication.substring(17,32)==row2.id_commentaire.substring(0,16)) " value="null" talendType="id_String" nullable="true"/>
+  <variables name="null;&#xD;&#xA;if&#xD;&#xA;(StringHandling.LEFT(row2.id_commentaire,16)==StringHandling.RIGHT(row3.id_publication,16))&#xD;&#xA;{&#xD;&#xA;Var.id_pub=row3.id_publication;&#xD;&#xA;} " value="null" talendType="id_String" nullable="true"/>
+</expression:EMFExpression>
